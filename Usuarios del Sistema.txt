@@ -1,0 +1,9 @@
+* Posibles Usuarios
+Cliente
+Encargado de Pedidos
+Mozos
+Maestro
+Empanadero
+Pizzero
+
+* Preguntas para Entrevista

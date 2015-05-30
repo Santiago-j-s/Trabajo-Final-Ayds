@@ -1,0 +1,287 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Especificación de Requerimientos del Software
+\end_layout
+
+\begin_layout Author
+Dibez Pablo, Santana Santiago
+\end_layout
+
+\begin_layout Section
+Introducción
+\end_layout
+
+\begin_layout Standard
+En el presente documento se explicarán y analizarán los requerimientos del
+ proyecto 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Sistema de Gestión de Pizzería
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Se adopta el estándar IEEE 830
+\begin_inset CommandInset citation
+LatexCommand nocite
+key "1998"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Próposito
+\end_layout
+
+\begin_layout Standard
+El objetivo del siguiente documento es definir de manera clara y precisa
+ las funcionalidades y restricciones que tendrá el sistema, a desarrollarse,
+ de gestión de una pizzeria, va dirigido al equipo de desarrollo del software
+ y a los usuarios finales del sistema.
+\end_layout
+
+\begin_layout Standard
+Este documento será un medio de comunicación entre todos los roles implicados
+ en el desarrollo del sistema y por tanto esta sujeto a revisiones, tanto
+ de los desarrolladores como de los usuarios.
+\end_layout
+
+\begin_layout Subsection
+Alcance
+\end_layout
+
+\begin_layout Standard
+Este sistema se encargará de facilitar las operaciones realizadas en el
+ ciclo habitual de la pizzeria; abarcando el registro de usuarios, la toma
+ de pedidos, la gestion de hornos y el servicio de distribucion del producto.
+ El sistema será denominado 
+\emph on
+Sistema de Gestión de Pizzería.
+\end_layout
+
+\begin_layout Subsection
+Definiciones, acrónimos y abreviaturas
+\end_layout
+
+\begin_layout Itemize
+Kit: Conjunto de ingredientes que conforman una determinada variedad de
+ pizza o empanada
+\end_layout
+
+\begin_layout Itemize
+Pedido: Solicitud de un producto que un cliente realiza a la pizzería.
+\end_layout
+
+\begin_layout Itemize
+Usuario: Persona que utiliza algún o algunos subsistemas del 
+\emph on
+Sistema de Gestión de Pizzería.
+\end_layout
+
+\begin_layout Itemize
+Cliente: Persona que realiza pedidos a la pizzería y paga por ellos.
+\end_layout
+
+\begin_layout Subsection
+Referencias
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+refname{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "Citations"
+options "ieeetr"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Visión general del documento
+\end_layout
+
+\begin_layout Standard
+Este documento está conformado de tres secciones que son la Introducción,
+ la Descripción Global y los Requisitos Específicos.
+ En esta primera sección se procura proporcionar una visión general de lo
+ que es el documento de especificación de requisitos.
+ En la segunda sección se da una descripción general del sistema a construir,
+ para conocer sus funciones principales, los datos requeridos, y sus restriccion
+es, entre otros factores que afecten su desarrollo, aunque no se entra en
+ los detalles de cada uno de estos factores.
+ Y, por último, en la tercera sección se definen los pormenores de los requisito
+s que el usuario ha externado que el sistema actual cumple y por lo tanto
+ el nuevo sistema debe satisfacer.
+\end_layout
+
+\begin_layout Section
+Descripción General
+\end_layout
+
+\begin_layout Subsection
+Perspectiva del producto
+\end_layout
+
+\begin_layout Subsection
+Perspectiva del producto
+\end_layout
+
+\begin_layout Subsection
+Características de los usuarios
+\end_layout
+
+\begin_layout Subsection
+Restricciones
+\end_layout
+
+\begin_layout Subsection
+Dependencias
+\end_layout
+
+\begin_layout Section
+Requerimientos Específicos
+\end_layout
+
+\begin_layout Subsection
+Interfaces Externas
+\end_layout
+
+\begin_layout Subsection
+Funciones
+\end_layout
+
+\begin_layout Subsection
+Requisitos del Rendimiento
+\end_layout
+
+\begin_layout Subsection
+Restricciones de Diseño
+\end_layout
+
+\begin_layout Subsection
+Atributos del Sistema
+\end_layout
+
+\begin_layout Subsection
+Otros Requisitos
+\end_layout
+
+\begin_layout Section
+Apéndice
+\end_layout
+
+\begin_layout Section
+Índice
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
