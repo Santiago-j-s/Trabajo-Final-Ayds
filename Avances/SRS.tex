@@ -1,0 +1,227 @@
+%% LyX 2.1.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english,spanish]{article}
+\usepackage[latin9]{inputenc}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{textcomp}
+\usepackage{graphicx}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\date{}
+
+\makeatother
+
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+\begin{document}
+
+\title{Especificación de Requerimientos del Software}
+
+
+\author{Dibez Pablo, Santana Santiago}
+
+\maketitle
+
+\section{Introducción}
+
+En el presente documento se explicarán y analizarán los requerimientos
+del proyecto \flqq{}\emph{Sistema de Gestión de Pizzería}\frqq{}.
+Se adopta el estándar IEEE 830\nocite{1998}.
+
+
+\subsection{Próposito}
+
+El objetivo del siguiente documento es definir de manera clara y precisa
+las funcionalidades y restricciones que tendrá el sistema, a desarrollarse,
+de gestión de una pizzeria, va dirigido al equipo de desarrollo del
+software y a los usuarios finales del sistema.
+
+Este documento será un medio de comunicación entre todos los roles
+implicados en el desarrollo del sistema y por tanto esta sujeto a
+revisiones, tanto de los desarrolladores como de los usuarios.
+
+
+\subsection{Alcance}
+
+Este sistema se encargará de facilitar las operaciones realizadas
+en el ciclo habitual de la pizzeria; abarcando el registro de usuarios,
+la toma de pedidos, la gestion de hornos y el servicio de distribucion
+del producto. El sistema será denominado \emph{Sistema de Gestión
+de Pizzería.}
+
+
+\subsection{Definiciones, acrónimos y abreviaturas}
+\begin{itemize}
+\item Kit: Conjunto de ingredientes que conforman una determinada variedad
+de pizza o empanada
+\item Pedido: Solicitud de un producto que un cliente realiza a la pizzería.
+\item Usuario: Persona que utiliza algún o algunos subsistemas del \emph{Sistema
+de Gestión de Pizzería.}
+\item Cliente: Persona que realiza pedidos a la pizzería y paga por ellos.
+\end{itemize}
+
+\subsection{Referencias}
+
+\renewcommand\refname{}
+
+\bibliographystyle{ieeetr}
+\nocite{*}
+\bibliography{Citations}
+
+
+
+\subsection{Visión general del documento}
+
+Este documento está conformado de tres secciones que son la Introducción,
+la Descripción Global y los Requisitos Específicos. En esta primera
+sección se procura proporcionar una visión general de lo que es el
+documento de especificación de requisitos. En la segunda sección se
+da una descripción general del sistema a construir, para conocer sus
+funciones principales, los datos requeridos, y sus restricciones,
+entre otros factores que afecten su desarrollo, aunque no se entra
+en los detalles de cada uno de estos factores. Y, por último, en la
+tercera sección se definen los pormenores de los requisitos que el
+usuario ha externado que el sistema actual cumple y por lo tanto el
+nuevo sistema debe satisfacer.
+
+
+\section{Descripción General}
+
+
+\subsection{Perspectiva del producto}
+
+Este sistema se relacionará con un software de facturación creando
+archivos con los datos necesarios para generar las facturas. La interfaz
+de facturación será provista por el software de facturación.
+
+El sistema necesitará también contar con un SGBD externo.
+
+
+\subsection{Funciones del producto}
+
+El sistema permitirá a los clientes:
+\begin{itemize}
+\item Registrarse como usuarios
+\item Realizar Encargos de comida a través de la web
+\item Cancelar los encargos realizados
+\end{itemize}
+A los empleados:
+\begin{itemize}
+\item Gestionar los encargos de los clientes
+\item Ver insumos faltantes y realizar pedidos a los proveedores
+\item Gestionar los hornos
+\item Gestionar los tipos de productos que los clientes pueden solicitar
+\end{itemize}
+
+\subsection{Características de los usuarios}
+
+Se espera que el encargado de pedidos de la pizzería aprenda la funcionalidad
+completa del software por lo que se espera que tenga conocimientos
+básicos de informática además de estar muy familiarizado con los procesos
+de la pizzería.
+
+
+\subsection{Restricciones}
+
+El sistema deberá utilizar para la facturación la interfaz provista
+por el software actual de facturación de la pizzería.
+
+
+\subsection{Dependencias}
+
+
+\section{Requerimientos Específicos}
+
+
+\subsection{Requerimientos Funcionales}
+
+\selectlanguage{english}%
+\begin{longtable}[l]{|l|l|>{\raggedright}m{0.7\linewidth}|}
+\hline 
+1 & Gestionar Encargo de Cliente & Recepciona pedido de comida de clientes y envia las ordenes necesarias
+para satisfacerlo \tabularnewline
+\hline 
+1.1 & Seleccionar Horno & Elige en que horno se cocinara un determinado pedido\tabularnewline
+\hline 
+1.2 & Definir Medio de Pago & Selecciona por que medio de pago abonara el cliente su encargo\tabularnewline
+\hline 
+1.3 & Definir Medio de Entrega & Selecciona la via de entrega del producto al cliente correspondiente\tabularnewline
+\hline 
+2 & Gestionar Pedido de Insumos & Confecciona la lista de insumos disponibles y faltantes y encarga
+periodicamente su abasteciemiento\tabularnewline
+\hline 
+3 & Facturar Encargo & Proporciona al Sistema Factura los datos asociados a un encargo; incluyendo
+cliente,comidas,bebidas y precios\tabularnewline
+\hline 
+4 & Registrar Cliente & Crea cuenta para un cliente en el sistema POS Pizzeria\tabularnewline
+\hline 
+5 & Ingresar al Sistema & Inicia cuenta de usuario en el sistema POS Pizzeria\tabularnewline
+\hline 
+6 & Realizar Encargo & Registra pedido de comida de un cliente\tabularnewline
+\hline 
+7 & Gestionar Menú & Añade,quita o modifica las comidas disponibles que puede encargar
+el usuario\tabularnewline
+\hline 
+8 & Gestionar Horno & Añade y quita hornos del sistema y envia los encargo que debe realizar
+cada uno\tabularnewline
+\hline 
+8.1 & Gestionar Módulos & Selecciona en que conjunto de partes los hornos cocinaran pedidos\tabularnewline
+\hline 
+8.2 & Seleccionar Política de Horno & Modifica formas de gestionar los hornos\tabularnewline
+\hline 
+9 & Añadir Horno & Agrega nuevo horno al sitema POS Pizzeria\tabularnewline
+\hline 
+10 & Crear Política de Horno & Agrega reglas para gestionar hornos\tabularnewline
+\hline 
+\end{longtable}
+
+\selectlanguage{spanish}%
+
+\subsection{Requerimientos de Interfaces Externas}
+
+Los datos que requiere el software de facturación son:
+\begin{itemize}
+\item Código del cliente
+\item Apellido del cliente
+\item Nombre del cliente
+\item Fecha-Hora de entrega
+\item Tipo de entrega: local, mostrador o delivery
+\item Monto Pagado
+\item N\textdegree{} Cupón de tarjeta de crédito del pago
+\item Lista de productos incluídos con código y cantidad de cada producto
+\end{itemize}
+
+\subsection{Requerimientos del Rendimiento}
+
+
+\subsection{Restricciones de Diseño}
+
+
+\subsection{Atributos del Sistema}
+
+
+\subsection{Otros Requerimientos}
+
+\pagebreak{}
+
+
+\section{Apéndice}
+
+
+\subsection{Casos de Uso}
+
+\includegraphics[scale=0.65]{\string"Caso de Uso de Sistema\string".png}
+
+
+\section{Índice}
+
+\tableofcontents{}
+\end{document}

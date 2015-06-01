@@ -1,0 +1,27 @@
+ID. CU,Nombre de Caso de Uso,Descripción Breve
+1,Gestionar Encargo de Cliente,"
+Recepciona pedido de comida de clientes y envia las ordenes necesarias para satisfacerlo "
+1.1,Seleccionar Horno,Elige en que horno se cocinara un determinado pedido
+1.2,Definir Medio de Pago,Selecciona por que medio de pago abonara el cliente su encargo
+1.3,Definir Medio de Entrega,Selecciona la via de entrega del producto al cliente correspondiente
+2,Gestionar Pedido de Insumos,"Confecciona la lista de insumos disponibles y faltantes y encarga periodicamente su abasteciemiento
+"
+3,Facturar Encargo,"Proporciona al Sistema Factura los datos asociados a un encargo; incluyendo cliente,comidas,bebidas y precios
+"
+4,Registrar Cliente,"Crea cuenta para un cliente en el sistema POS Pizzeria
+"
+5,Ingresar al Sistema,"Inicia cuenta de usuario en el sistema POS Pizzeria
+"
+6,Realizar Encargo,"Registra pedido de comida de un cliente
+"
+7,Gestionar Menú,"Añade,quita o modifica las comidas disponibles que puede encargar el usuario
+(PODRIAMOS PONER QUE FIGURAN SOLO LAS QUE HAY STOCK DE INSUMOS, POR LO QUE YA NO LO DEBERIA TESTEAR EL ENCARGADO DE PEDIDOS)"
+8,Gestionar Horno,"Añade y quita hornos del sistema y envia los encargo que debe realizar cada uno
+"
+8.1,Gestionar Módulos,"Selecciona en que conjunto de partes los hornos cocinaran pedidos
+"
+8.2,Seleccionar Política de Horno,Modifica formas de gestionar los hornos
+9,Añadir Horno,"Agrega nuevo horno al sitema POS Pizzeria
+"
+10,Crear Política de Horno,"Agrega reglas para gestionar hornos
+"

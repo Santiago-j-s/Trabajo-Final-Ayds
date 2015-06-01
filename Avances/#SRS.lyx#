@@ -905,6 +905,13 @@ Atributos del Sistema
 Otros Requerimientos
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Apéndice
 \end_layout
@@ -916,7 +923,7 @@ Casos de Uso
 \begin_layout Standard
 \begin_inset Graphics
 	filename Caso de Uso de Sistema.png
-	width 80page%
+	scale 60
 
 \end_inset
 
