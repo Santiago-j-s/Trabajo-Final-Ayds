@@ -8,6 +8,8 @@
 
 * Los diagramas de interacción tienen que ir dentro de colaboraciones (se ven como elipses similares a los casos de uso pero con línea punteada), uno por colaboración. Si pones dos diagramas de interacción en un mismo CU sin hacerlo así te encontrarás con todos los objetos borrados, es sumamente divertido, logre salvarlo gracias a Git xD.
 
+* Aprendí como hacer los diagramas de comunicación a partir de los de interacción, solo tenemos que hacer los de interacción y luego es fácil el resto :P.
+
 * Vi el Realizar Pedido de Insumos y no esta mal, creo que falta detalle en el paso 2 y tengo dudas con la extensión, si se hace de la forma tradicional no pertenece a nuestro sistema.
 
 * Subi a GDrive el .mdj actualizado.
