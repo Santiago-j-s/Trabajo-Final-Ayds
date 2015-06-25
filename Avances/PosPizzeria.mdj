@@ -290,7 +290,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFOK9b+wL9vXX0="
 									},
-									"name": "Collaboration2",
+									"name": "DSS Gestionar Encargo",
 									"ownedElements": [
 										{
 											"_type": "UMLInteraction",
@@ -298,7 +298,7 @@
 											"_parent": {
 												"$ref": "AAAAAAFOK9b+wL9u2Ck="
 											},
-											"name": "Interaction1",
+											"name": "DSS Gestionar Encargo",
 											"ownedElements": [
 												{
 													"_type": "UMLSequenceDiagram",
@@ -306,7 +306,7 @@
 													"_parent": {
 														"$ref": "AAAAAAFOK9b+wL9r0jE="
 													},
-													"name": "SequenceDiagram1",
+													"name": "DSS Gestionar Encargo",
 													"visible": true,
 													"defaultDiagram": false,
 													"ownedViews": [
@@ -337,11 +337,11 @@
 																	"containerExtending": false,
 																	"left": 75.97900390625,
 																	"top": 10,
-																	"width": 115.9052734375,
+																	"width": 139.734375,
 																	"height": 13,
 																	"autoResize": false,
 																	"underline": false,
-																	"text": "SequenceDiagram1",
+																	"text": "DSS Gestionar Encargo",
 																	"horizontalAlignment": 2,
 																	"verticalAlignment": 5
 																},
@@ -478,11 +478,11 @@
 																			"containerExtending": false,
 																			"left": 0,
 																			"top": 0,
-																			"width": 106.20263671875,
+																			"width": 177.00439453125,
 																			"height": 13,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": "(from Interaction1)",
+																			"text": "(from DSS Gestionar Encargo)",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
@@ -676,11 +676,11 @@
 																			"containerExtending": false,
 																			"left": 0,
 																			"top": 0,
-																			"width": 106.20263671875,
+																			"width": 177.00439453125,
 																			"height": 13,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": "(from Interaction1)",
+																			"text": "(from DSS Gestionar Encargo)",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
@@ -3116,24 +3116,6 @@
 											"visibility": "public"
 										},
 										{
-											"_type": "UMLMergeNode",
-											"_id": "AAAAAAFOK9o2leJkopM=",
-											"_parent": {
-												"$ref": "AAAAAAFOK9o2leJsewU="
-											},
-											"name": "MergeNode1",
-											"visibility": "public"
-										},
-										{
-											"_type": "UMLJoinNode",
-											"_id": "AAAAAAFOK9o2leJlbBM=",
-											"_parent": {
-												"$ref": "AAAAAAFOK9o2leJsewU="
-											},
-											"name": "JoinNode1",
-											"visibility": "public"
-										},
-										{
 											"_type": "UMLAction",
 											"_id": "AAAAAAFOK9o2leJmZYc=",
 											"_parent": {
@@ -3447,7 +3429,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFOK9b+xb/RyeE="
 									},
-									"name": "Collaboration1",
+									"name": "DSS Pedido Insumos",
 									"ownedElements": [
 										{
 											"_type": "UMLInteraction",
@@ -3455,7 +3437,7 @@
 											"_parent": {
 												"$ref": "AAAAAAFOK9b+xb/Qkns="
 											},
-											"name": "Interaction1",
+											"name": "DSS Pedido Insumos",
 											"ownedElements": [
 												{
 													"_type": "UMLSequenceDiagram",
@@ -3463,7 +3445,7 @@
 													"_parent": {
 														"$ref": "AAAAAAFOK9b+xL/MpcQ="
 													},
-													"name": "SequenceDiagram1",
+													"name": "DSS Pedido Insumos",
 													"visible": true,
 													"defaultDiagram": false,
 													"ownedViews": [
@@ -3494,11 +3476,11 @@
 																	"containerExtending": false,
 																	"left": 98.97900390625,
 																	"top": 5,
-																	"width": 115.9052734375,
+																	"width": 124.5634765625,
 																	"height": 13,
 																	"autoResize": false,
 																	"underline": false,
-																	"text": "SequenceDiagram1",
+																	"text": "DSS Pedido Insumos",
 																	"horizontalAlignment": 2,
 																	"verticalAlignment": 5
 																},
@@ -3635,11 +3617,11 @@
 																			"containerExtending": false,
 																			"left": -96,
 																			"top": 0,
-																			"width": 106.20263671875,
+																			"width": 161.83349609375,
 																			"height": 13,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": "(from Interaction1)",
+																			"text": "(from DSS Pedido Insumos)",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
@@ -3833,11 +3815,11 @@
 																			"containerExtending": false,
 																			"left": -168,
 																			"top": 0,
-																			"width": 106.20263671875,
+																			"width": 161.83349609375,
 																			"height": 13,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": "(from Interaction1)",
+																			"text": "(from DSS Pedido Insumos)",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
@@ -4532,11 +4514,11 @@
 																			"containerExtending": false,
 																			"left": 0,
 																			"top": 0,
-																			"width": 106.20263671875,
+																			"width": 161.83349609375,
 																			"height": 13,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": "(from Interaction1)",
+																			"text": "(from DSS Pedido Insumos)",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
@@ -10747,7 +10729,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFOK9b+0cDYOAM="
 									},
-									"name": "Realizar Encargo",
+									"name": "DSS Realizar Encargo",
 									"ownedElements": [
 										{
 											"_type": "UMLInteraction",
@@ -10755,7 +10737,7 @@
 											"_parent": {
 												"$ref": "AAAAAAFOK9b+zsCUjVQ="
 											},
-											"name": "DSS",
+											"name": "DSS Realizar Encargo",
 											"ownedElements": [
 												{
 													"_type": "UMLSequenceDiagram",
@@ -12947,7 +12929,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFOK9b+0cDYOAM="
 									},
-									"name": "Iniciar Encargo",
+									"name": "DI Iniciar Encargo",
 									"ownedElements": [
 										{
 											"_type": "UMLInteraction",
@@ -12955,7 +12937,7 @@
 											"_parent": {
 												"$ref": "AAAAAAFOK9b+0cDVtqs="
 											},
-											"name": "Interaccion Iniciar Encargo",
+											"name": "DI Iniciar Encargo",
 											"ownedElements": [
 												{
 													"_type": "UMLSequenceDiagram",
@@ -12963,7 +12945,7 @@
 													"_parent": {
 														"$ref": "AAAAAAFOK9b+0cDQYBk="
 													},
-													"name": "IniciarNuevoEncargo",
+													"name": "Seq Iniciar Encargo",
 													"visible": true,
 													"defaultDiagram": false,
 													"ownedViews": [
@@ -13057,7 +13039,7 @@
 																			"height": 13,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": "(from Interaccion Iniciar Encargo)",
+																			"text": "(from DI Iniciar Encargo)",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
@@ -13255,7 +13237,7 @@
 																			"height": 13,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": "(from Interaccion Iniciar Encargo)",
+																			"text": "(from DI Iniciar Encargo)",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
@@ -13644,7 +13626,7 @@
 																			"height": 13,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": "(from Interaccion Iniciar Encargo)",
+																			"text": "(from DI Iniciar Encargo)",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
@@ -13842,7 +13824,7 @@
 																			"height": 13,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": "(from Interaccion Iniciar Encargo)",
+																			"text": "(from DI Iniciar Encargo)",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
@@ -14672,30 +14654,6 @@
 											"isID": false
 										}
 									],
-									"isAbstract": false,
-									"isFinalSpecialization": false,
-									"isLeaf": false
-								},
-								{
-									"_type": "UMLCollaboration",
-									"_id": "AAAAAAFOK9b+0cDXHsQ=",
-									"_parent": {
-										"$ref": "AAAAAAFOK9b+0cDYOAM="
-									},
-									"name": "Collaboration1",
-									"ownedElements": [
-										{
-											"_type": "UMLInteraction",
-											"_id": "AAAAAAFOK9b+0cDWuZY=",
-											"_parent": {
-												"$ref": "AAAAAAFOK9b+0cDXHsQ="
-											},
-											"name": "Interaction1",
-											"visibility": "public",
-											"isReentrant": true
-										}
-									],
-									"visibility": "public",
 									"isAbstract": false,
 									"isFinalSpecialization": false,
 									"isLeaf": false
@@ -17532,7 +17490,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFOK9b+2cF1kaI="
 									},
-									"name": "Collaboration3",
+									"name": "DSS Cancelar Encargo",
 									"ownedElements": [
 										{
 											"_type": "UMLInteraction",
@@ -17540,7 +17498,7 @@
 											"_parent": {
 												"$ref": "AAAAAAFOK9b+2cF0o24="
 											},
-											"name": "Interaction1",
+											"name": "DSS Cancelar Encargo",
 											"ownedElements": [
 												{
 													"_type": "UMLSequenceDiagram",
@@ -17548,7 +17506,7 @@
 													"_parent": {
 														"$ref": "AAAAAAFOK9b+2MFxBoA="
 													},
-													"name": "SequenceDiagram1",
+													"name": "DSS Cancelar Encargo",
 													"visible": true,
 													"defaultDiagram": false,
 													"ownedViews": [
@@ -17579,11 +17537,11 @@
 																	"containerExtending": false,
 																	"left": 75.97900390625,
 																	"top": 10,
-																	"width": 115.9052734375,
+																	"width": 135.39892578125,
 																	"height": 13,
 																	"autoResize": false,
 																	"underline": false,
-																	"text": "SequenceDiagram1",
+																	"text": "DSS Cancelar Encargo",
 																	"horizontalAlignment": 2,
 																	"verticalAlignment": 5
 																},
@@ -17720,11 +17678,11 @@
 																			"containerExtending": false,
 																			"left": 0,
 																			"top": 0,
-																			"width": 106.20263671875,
+																			"width": 172.6689453125,
 																			"height": 13,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": "(from Interaction1)",
+																			"text": "(from DSS Cancelar Encargo)",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
@@ -17918,11 +17876,11 @@
 																			"containerExtending": false,
 																			"left": -108,
 																			"top": 0,
-																			"width": 106.20263671875,
+																			"width": 172.6689453125,
 																			"height": 13,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": "(from Interaction1)",
+																			"text": "(from DSS Cancelar Encargo)",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
