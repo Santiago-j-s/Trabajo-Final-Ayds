@@ -1,0 +1,383 @@
+%% LyX 2.1.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english,spanish]{article}
+\usepackage[utf8]{luainputenc}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{graphicx}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\date{}
+
+\makeatother
+
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+\begin{document}
+
+\title{Especificación de Requerimientos del Software}
+
+
+\author{Dibez Pablo, Santana Santiago}
+
+\maketitle
+
+\section{Introducción}
+
+En el presente documento se explicarán y analizarán los requerimientos
+del proyecto \flqq{}\emph{Sistema de Gestión de Pizzería}\frqq{}.
+Se adopta el estándar IEEE 830\nocite{1998}.
+
+
+\subsection{Próposito}
+
+El objetivo del siguiente documento es definir de manera clara y precisa
+las funcionalidades y restricciones que tendrá el sistema, a desarrollarse,
+de gestión de una pizzeria, va dirigido al equipo de desarrollo del
+software y a los usuarios finales del sistema.
+
+Este documento será un medio de comunicación entre todos los roles
+implicados en el desarrollo del sistema y por tanto esta sujeto a
+revisiones, tanto de los desarrolladores como de los usuarios.
+
+
+\subsection{Alcance}
+
+Este sistema se encargará de facilitar las operaciones realizadas
+en el ciclo habitual de la pizzeria; abarcando el registro de usuarios,
+la toma de pedidos, la gestion de hornos y el servicio de distribucion
+del producto. El sistema será denominado \emph{Sistema de Gestión
+de Pizzería.}
+
+
+\subsection{Definiciones, acrónimos y abreviaturas}
+\begin{itemize}
+\item Kit: Conjunto de ingredientes que conforman una determinada variedad
+de pizza o empanada
+\item Pedido: Solicitud de un producto que un cliente realiza a la pizzería.
+\item Usuario: Persona que utiliza algún o algunos subsistemas del \emph{Sistema
+de Gestión de Pizzería.}
+\item Cliente: Persona que realiza pedidos a la pizzería y paga por ellos.
+\end{itemize}
+
+\subsection{Referencias}
+
+\renewcommand\refname{}
+
+\bibliographystyle{ieeetr}
+\nocite{*}
+\bibliography{Citations}
+
+
+
+\subsection{Visión general del documento}
+
+Este documento está conformado de tres secciones que son la Introducción,
+la Descripción Global y los Requisitos Específicos. En esta primera
+sección se procura proporcionar una visión general de lo que es el
+documento de especificación de requisitos. En la segunda sección se
+da una descripción general del sistema a construir, para conocer sus
+funciones principales, los datos requeridos, y sus restricciones,
+entre otros factores que afecten su desarrollo, aunque no se entra
+en los detalles de cada uno de estos factores. Y, por último, en la
+tercera sección se definen los pormenores de los requisitos que el
+usuario ha externado que el sistema actual cumple y por lo tanto el
+nuevo sistema debe satisfacer.
+
+
+\section{Descripción General}
+
+
+\subsection{Perspectiva del producto}
+
+Este sistema se relacionará con un software de facturación creando
+archivos con los datos necesarios para generar las facturas. La interfaz
+de facturación será provista por el software de facturación.
+
+El sistema necesitará también contar con un SGBD externo.
+
+
+\subsection{Funciones del producto}
+
+El sistema permitirá a los clientes:
+\begin{itemize}
+\item Registrarse como usuarios
+\item Realizar Encargos de comida a través de la web
+\item Cancelar los encargos realizados
+\end{itemize}
+A los empleados:
+\begin{itemize}
+\item Gestionar los encargos de los clientes
+\item Ver insumos faltantes y realizar pedidos a los proveedores
+\item Gestionar los hornos
+\item Gestionar los tipos de productos que los clientes pueden solicitar
+\end{itemize}
+
+\subsection{Características de los usuarios}
+
+Se espera que el encargado de pedidos de la pizzería aprenda la funcionalidad
+completa del software por lo que se espera que tenga conocimientos
+básicos de informática además de estar muy familiarizado con los procesos
+de la pizzería.
+
+
+\subsection{Restricciones}
+
+El sistema deberá utilizar para la facturación la interfaz provista
+por el software actual de facturación de la pizzería.
+
+
+\section{Requerimientos Específicos}
+
+
+\subsection{Requerimientos Funcionales}
+
+\selectlanguage{english}%
+\begin{longtable}[l]{|l|l|>{\raggedright}m{0.7\linewidth}|}
+\hline 
+1 & Gestionar Encargo de Cliente & Recepciona pedido de comida de clientes y envia las ordenes necesarias
+para satisfacerlo \tabularnewline
+\hline 
+2 & Seleccionar Horno & Elige en que horno se cocinara un determinado pedido\tabularnewline
+\hline 
+3 & Elegir Medio de Pago & Selecciona por que medio de pago abonara el cliente su encargo\tabularnewline
+\hline 
+4 & Definir Medio de Entrega & Selecciona la via de entrega del producto al cliente correspondiente\tabularnewline
+\hline 
+5 & Gestionar Pedido de Insumos & Confecciona la lista de insumos disponibles y faltantes y encarga
+periodicamente su abasteciemiento\tabularnewline
+\hline 
+6 & Facturar Encargo & Proporciona al Sistema Factura los datos asociados a un encargo; incluyendo
+cliente,comidas,bebidas y precios\tabularnewline
+\hline 
+7 & Registrar Cliente & Crea cuenta para un cliente en el sistema POS Pizzeria\tabularnewline
+\hline 
+8 & Ingresar al Sistema & Inicia cuenta de usuario en el sistema POS Pizzeria\tabularnewline
+\hline 
+9 & Realizar Encargo & Registra pedido de comida de un cliente\tabularnewline
+\hline 
+10 & Gestionar Menú & Añade,quita o modifica las comidas disponibles que puede encargar
+el usuario\tabularnewline
+\hline 
+11 & Gestionar Horno & Añade y quita hornos del sistema y envia los encargo que debe realizar
+cada uno\tabularnewline
+\hline 
+12 & Gestionar Módulos & Selecciona en que conjunto de partes los hornos cocinaran pedidos\tabularnewline
+\hline 
+13 & Seleccionar Política de Horno & Modifica formas de gestionar los hornos\tabularnewline
+\hline 
+14 & Añadir Horno & Agrega nuevo horno al sitema POS Pizzeria\tabularnewline
+\hline 
+15 & Crear Política de Horno & Agrega reglas para gestionar hornos\tabularnewline
+\hline 
+16 & Cancelar Encargo & Cancela un encargo\tabularnewline
+\hline 
+\end{longtable}
+
+\selectlanguage{spanish}%
+
+\subsection{Requerimientos de Interfaces Externas}
+
+Los datos que requiere el software de facturación son:
+\begin{itemize}
+\item Código del cliente
+\item Apellido del cliente
+\item Nombre del cliente
+\item Fecha-Hora de entrega
+\item Tipo de entrega: local, mostrador o delivery
+\item Monto Pagado
+\item N° Cupón de tarjeta de crédito del pago
+\item Lista de productos incluídos con código y cantidad de cada producto
+\end{itemize}
+\pagebreak{}
+
+
+\section{Apéndice}
+
+
+\subsection{Casos de Uso}
+
+\includegraphics[scale=0.4]{\string"Caso de Uso de Sistema V2\string".png}
+
+
+\subsubsection{Especificación de Casos de Uso}
+
+\begin{tabular}{|>{\centering}p{0.2\columnwidth}|>{\centering}p{0.7\columnwidth}|}
+\hline 
+ID. CU & 9\tabularnewline
+\hline 
+Nombre & Realizar Encargo\tabularnewline
+\hline 
+Iniciador & Gestor de Encargos\tabularnewline
+\hline 
+Objetivo & Realizar un pedido de productos\tabularnewline
+\hline 
+Precondición & El gestor esta logueado en el sistema\tabularnewline
+\hline 
+Escenario principal de éxito & \begin{enumerate}
+\item El gestor inicia pedido de encargo
+\item El sistema muestra interfaz para seleccionar los productos a encargar
+\item El cliente selecciona los productos
+\item El cliente elige medio de pago
+\item El sistema muestra el formulario de pago
+\item El cliente completa el formulario de pago
+\item El cliente confirma el envío del encargo
+\item El sistema añade el encargo a la cola de encargos\end{enumerate}
+\tabularnewline
+\hline 
+Postcondición & Se ha realizado un pedido y ha llegado al encargado de pedidos\tabularnewline
+\hline 
+\end{tabular}
+
+\begin{tabular}{|>{\centering}p{0.8\columnwidth}|}
+\hline 
+Extensiones\tabularnewline
+\hline 
+\hline 
+5.   El cliente no elige medio de pago\tabularnewline
+\hline 
+\begin{enumerate}
+\item El cliente confirma el envío del encargo
+\item El sistema añade el encargo a la cola de encargos\end{enumerate}
+\tabularnewline
+\hline 
+\end{tabular}
+
+\fbox{\begin{minipage}[t]{1\columnwidth}%
+\includegraphics[scale=0.5]{\string"DA Realizar Encargo\string".png}%
+\end{minipage}}
+
+\textcompwordmark{}\linebreak{}
+
+
+\begin{tabular}{|>{\centering}p{0.2\columnwidth}|>{\centering}p{0.7\columnwidth}|}
+\hline 
+ID. CU & 2\tabularnewline
+\hline 
+Nombre & Seleccionar horno\tabularnewline
+\hline 
+Iniciador & Encargado de pedidos\tabularnewline
+\hline 
+Objetivo & Elegir que horno cocinara un determinado encargo de un cliente\tabularnewline
+\hline 
+Precondición & Hay encargo/s en la cola de encargos y hay hornos disponibles\tabularnewline
+\hline 
+Escenario principal de éxito & \begin{enumerate}
+\item El Encargado de Pedidos consulta hornos disponibles al Sistema.
+\item El Sistema muestra los hornos disponibles.
+\item El Encargado de Pedidos elige un horno libre.
+\item El Encargado de Pedidos dispone encargo en horno seleccionado.
+\item El Sistema valida operación.\end{enumerate}
+\tabularnewline
+\hline 
+Postcondición & El encargo de cliente fue asignado a un horno\tabularnewline
+\hline 
+\end{tabular}
+
+\textcompwordmark{}\linebreak{}
+
+
+\fbox{\begin{minipage}[t]{1\columnwidth}%
+\includegraphics[scale=0.5]{\string"DA Seleccionar Horno\string".png}%
+\end{minipage}}
+
+\includegraphics[scale=0.5]{\string"DSS Seleccionar Horno\string".png}
+
+\begin{tabular}{|>{\centering}p{0.2\columnwidth}|>{\centering}p{0.7\columnwidth}|}
+\hline 
+ID. CU & 4\tabularnewline
+\hline 
+\hline 
+Nombre & Definir medio de entrega\tabularnewline
+\hline 
+Iniciador & Encargado de Pedidos\tabularnewline
+\hline 
+Objetivo & Determinar por cual medio llegará el encargo al cliente\tabularnewline
+\hline 
+Precondición & Existe encargo del cliente\tabularnewline
+\hline 
+Escenario Principal de Éxito & \begin{enumerate}
+\item El Encargado de Pedidos pregunta los distintos medios de envío al
+Sistema
+\item El Sistema muestra los medios de envío disponibles
+\item El Encargado de Pedidos selecciona envío por delivery.
+\item El Encargado de Pedidos registra empleado que realizara el envío.
+\item El Sistema emite factura.
+\item El Encargado de Pedidos registra pago que obtuvo el empleado del delivery.\end{enumerate}
+\tabularnewline
+\hline 
+Postcondición & El medio por el cual se entregara el encargo fue definido\tabularnewline
+\hline 
+\end{tabular}
+
+\begin{tabular}{|>{\centering}p{0.8\columnwidth}|}
+\hline 
+Extensiones\tabularnewline
+\hline 
+\hline 
+3a. El Encargado de Pedidos selecciona medio entrega en el local
+\begin{enumerate}
+\item El Encargado de Pedidos registra pago que obtuvo del cliente.\end{enumerate}
+\tabularnewline
+\hline 
+\end{tabular}
+
+\begin{tabular}{|>{\centering}p{0.2\columnwidth}|>{\centering}p{0.7\columnwidth}|}
+\hline 
+ID. CU & 5\tabularnewline
+\hline 
+\hline 
+Nombre & Realizar Pedido de Insumos\tabularnewline
+\hline 
+Iniciador & Encargado de Pedidos\tabularnewline
+\hline 
+Objetivo & Reponer el stock de insumos necesarios para los productos\tabularnewline
+\hline 
+Precondición & El punto de reposición de alguno/s de los insumos esta por debajo
+del valor esperado\tabularnewline
+\hline 
+Escenario Principal de Éxito & \begin{enumerate}
+\item El Sistema envía mensaje que avisa bajo stock de insumos
+\item El Encargado de Pedidos consulta insumos de bajo stock
+\item El Sistema muestra los insumos con stock por debajo del estimado
+\item El Encargado de Pedidos selecciona insumo reponer, elige cantidad
+y proveedor.
+\item El Sistema envía pedido a Proveedor
+\item El proveedor recibe pedido y lo valida\end{enumerate}
+\tabularnewline
+\hline 
+Postcondición & El pedido de reposición de insumos fue efectuado satisfactoriamente.\tabularnewline
+\hline 
+\end{tabular}
+
+\begin{tabular}{|>{\centering}p{0.8\columnwidth}|}
+\hline 
+Extensiones\tabularnewline
+\hline 
+\hline 
+5a. El proveedor no puede acceder al sistema
+\begin{enumerate}
+\item El Sistema le notifica situación al Encargado de Pedidos
+\item El Encargado de Pedidos realiza la operación de forma clasica\end{enumerate}
+\tabularnewline
+\hline 
+\end{tabular}
+
+\includegraphics[scale=0.5]{\string"DA Pedido de Insumos\string".png}
+
+\includegraphics[scale=0.5]{\string"DSS Pedido Insumos\string".png}
+
+
+
+\pagebreak{}
+
+\tableofcontents{}
+\end{document}

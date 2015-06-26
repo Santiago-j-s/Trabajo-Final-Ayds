@@ -80,6 +80,15 @@ Especificación de Requerimientos del Software
 Dibez Pablo, Santana Santiago
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Introducción
 \end_layout
@@ -1211,6 +1220,36 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Graphics
+	filename DSS Realizar Encargo.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Seq Iniciar Encargo.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Seq Aviso Falta Insumo.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \SpecialChar \textcompwordmark{}
 
 \begin_inset Newline linebreak
@@ -1889,19 +1928,431 @@ El Encargado de Pedidos realiza la operación de forma clasica
 \end_layout
 
 \begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="70col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ID.
+ CU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nombre
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Añadir horno
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Iniciador
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Encargado de Gestión de Hornos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objetivo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Añadir un horno al sistema
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Precondición
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Escenario Principal de Éxito
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+El Encargado de Hornos selecciona la opción “añadir horno”
+\end_layout
+
+\begin_layout Enumerate
+El Sistema muestra los datos necesarios para efectuar el registro del nuevo
+ horno
+\end_layout
+
+\begin_layout Enumerate
+El Encargado de Hornos completa el formulario de registro
+\end_layout
+
+\begin_layout Enumerate
+El Encargado de Hornos confirma registro
+\end_layout
+
+\begin_layout Enumerate
+El Sistema válida registro
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Postcondición
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El horno fue añadido al sistema
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="70col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ID.
+ CU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nombre
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cancelar Encargo
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Iniciador
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gestor de Encargos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objetivo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Eliminar un encargo realizado de la cola de encargos del sistema
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Precondición
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El encargo está en la cola de encargos (aún no fue asignado a un horno)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Escenario Principal de Éxito
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+El Registrador de Encargos busca encargo deseado.
+\end_layout
+
+\begin_layout Enumerate
+El Sistema muestra encargo buscado 
+\end_layout
+
+\begin_layout Enumerate
+El Registrador de Encargos selecciona la opción de cancelar encargo.
+\end_layout
+
+\begin_layout Enumerate
+El Sistema cancela encargo y lo elimina de la cola de encargos
+\end_layout
+
+\begin_layout Enumerate
+El Sistema restablece stock de insumos que ya no utilizara.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Postcondición
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El encargo fue eliminado de la cola de encargos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="80col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Extensiones
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2a.
+ El Sistema no encuentra encargo buscado
+\end_layout
+
+\begin_layout Enumerate
+El Sistema devuelve mensaje que notifica que no existe tal encargo
+\end_layout
+
+\begin_layout Plain Layout
+2b.
+\end_layout
+
+\begin_layout Enumerate
+El Sistema notifica situación a Realizador de Encargos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename DA Cancelar Encargo.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename DSS Cancelar Encargo.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename seq Cancelar Encargo.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Modelo de Clases Conceptuales
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ClasesConceptuales.jpg
+	scale 50
 
 \end_inset
 
