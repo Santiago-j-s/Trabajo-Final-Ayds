@@ -2359,5 +2359,19 @@ Modelo de Clases Conceptuales
 
 \end_layout
 
+\begin_layout Subsection
+Modelo de Clases del Diseño
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Diagrama de Clases.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

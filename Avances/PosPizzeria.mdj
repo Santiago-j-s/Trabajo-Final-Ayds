@@ -9,7 +9,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "Modelo de Análisis",
+			"name": "Modelo",
 			"ownedElements": [
 				{
 					"_type": "UMLUseCaseDiagram",
@@ -10045,7 +10045,7 @@
 																			"height": 26,
 																			"autoResize": false,
 																			"underline": false,
-																			"text": ": Controlador Realizar Encargo",
+																			"text": ": Controlador Encargos",
 																			"horizontalAlignment": 2,
 																			"verticalAlignment": 5
 																		},
@@ -41257,7 +41257,35 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+iniciarEncargo(: Producto[*])",
+											"text": "+iniciarEncargo(Producto: Producto[*])",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFOLXgu80o31J0=",
+											"_parent": {
+												"$ref": "AAAAAAFOK9b+9sPTSRw="
+											},
+											"model": {
+												"$ref": "AAAAAAFOLXBDHknjP6g="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 755,
+											"top": 1375,
+											"width": 227,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+cancelarEncargo(Id: Integer)",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										}
@@ -41274,7 +41302,7 @@
 									"left": 750,
 									"top": 1355,
 									"width": 237,
-									"height": 23,
+									"height": 38,
 									"autoResize": false
 								},
 								{
@@ -41314,7 +41342,7 @@
 							"left": 750,
 							"top": 1320,
 							"width": 237,
-							"height": 58,
+							"height": 73,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
