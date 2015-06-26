@@ -304,7 +304,7 @@ Requerimientos Funcionales
 
 \lang english
 \begin_inset Tabular
-<lyxtabular version="3" rows="15" columns="3">
+<lyxtabular version="3" rows="16" columns="3">
 <features rotate="0" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -352,7 +352,7 @@ Recepciona pedido de comida de clientes y envia las ordenes necesarias para
 \begin_layout Plain Layout
 
 \lang english
-1.1
+2
 \end_layout
 
 \end_inset
@@ -387,7 +387,7 @@ Elige en que horno se cocinara un determinado pedido
 \begin_layout Plain Layout
 
 \lang english
-1.2
+3
 \end_layout
 
 \end_inset
@@ -398,7 +398,7 @@ Elige en que horno se cocinara un determinado pedido
 \begin_layout Plain Layout
 
 \lang english
-Definir Medio de Pago
+Elegir Medio de Pago
 \end_layout
 
 \end_inset
@@ -422,7 +422,7 @@ Selecciona por que medio de pago abonara el cliente su encargo
 \begin_layout Plain Layout
 
 \lang english
-1.3
+4
 \end_layout
 
 \end_inset
@@ -457,7 +457,7 @@ Selecciona la via de entrega del producto al cliente correspondiente
 \begin_layout Plain Layout
 
 \lang english
-2
+5
 \end_layout
 
 \end_inset
@@ -493,7 +493,7 @@ Confecciona la lista de insumos disponibles y faltantes y encarga periodicamente
 \begin_layout Plain Layout
 
 \lang english
-3
+6
 \end_layout
 
 \end_inset
@@ -529,7 +529,7 @@ Proporciona al Sistema Factura los datos asociados a un encargo; incluyendo
 \begin_layout Plain Layout
 
 \lang english
-4
+7
 \end_layout
 
 \end_inset
@@ -564,7 +564,7 @@ Crea cuenta para un cliente en el sistema POS Pizzeria
 \begin_layout Plain Layout
 
 \lang english
-5
+8
 \end_layout
 
 \end_inset
@@ -599,7 +599,7 @@ Inicia cuenta de usuario en el sistema POS Pizzeria
 \begin_layout Plain Layout
 
 \lang english
-6
+9
 \end_layout
 
 \end_inset
@@ -634,7 +634,7 @@ Registra pedido de comida de un cliente
 \begin_layout Plain Layout
 
 \lang english
-7
+10
 \end_layout
 
 \end_inset
@@ -669,7 +669,7 @@ Añade,quita o modifica las comidas disponibles que puede encargar el usuario
 \begin_layout Plain Layout
 
 \lang english
-8
+11
 \end_layout
 
 \end_inset
@@ -705,7 +705,7 @@ Añade y quita hornos del sistema y envia los encargo que debe realizar cada
 \begin_layout Plain Layout
 
 \lang english
-8.1
+12
 \end_layout
 
 \end_inset
@@ -740,7 +740,7 @@ Selecciona en que conjunto de partes los hornos cocinaran pedidos
 \begin_layout Plain Layout
 
 \lang english
-8.2
+13
 \end_layout
 
 \end_inset
@@ -775,7 +775,7 @@ Modifica formas de gestionar los hornos
 \begin_layout Plain Layout
 
 \lang english
-9
+14
 \end_layout
 
 \end_inset
@@ -804,18 +804,18 @@ Agrega nuevo horno al sitema POS Pizzeria
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \lang english
-10
+15
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -826,13 +826,48 @@ Crear Política de Horno
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \lang english
 Agrega reglas para gestionar hornos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Cancelar Encargo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Cancela un encargo
 \end_layout
 
 \end_inset
@@ -902,8 +937,8 @@ Casos de Uso
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename Caso de Uso de Sistema.png
-	scale 65
+	filename Caso de Uso de Sistema V2.png
+	scale 40
 
 \end_inset
 
@@ -935,7 +970,7 @@ ID.
 \begin_inset Text
 
 \begin_layout Plain Layout
-6
+9
 \end_layout
 
 \end_inset
@@ -975,7 +1010,7 @@ Iniciador
 \begin_inset Text
 
 \begin_layout Plain Layout
-Cliente
+Gestor de Encargos
 \end_layout
 
 \end_inset
@@ -995,7 +1030,7 @@ Objetivo
 \begin_inset Text
 
 \begin_layout Plain Layout
-Realizar pedido de comida
+Realizar un pedido de productos
 \end_layout
 
 \end_inset
@@ -1015,7 +1050,7 @@ Precondición
 \begin_inset Text
 
 \begin_layout Plain Layout
-El cliente esta registrado
+El gestor esta logueado en el sistema
 \end_layout
 
 \end_inset
@@ -1035,27 +1070,35 @@ Escenario principal de éxito
 \begin_inset Text
 
 \begin_layout Enumerate
-Iniciar pedido de encargo
+El gestor inicia pedido de encargo
 \end_layout
 
 \begin_layout Enumerate
-Añadir Item (repetir hasta que estén todos los items) 
+El sistema muestra interfaz para seleccionar los productos a encargar
 \end_layout
 
 \begin_layout Enumerate
-Añadir bebida (hasta que estén todas las bebidas) 
+El cliente selecciona los productos
 \end_layout
 
 \begin_layout Enumerate
-Elegir medio de pago 
+El cliente elige medio de pago
 \end_layout
 
 \begin_layout Enumerate
-Completar formulario de pago 
+El sistema muestra el formulario de pago
 \end_layout
 
 \begin_layout Enumerate
-Confirmar envío del encargo
+El cliente completa el formulario de pago
+\end_layout
+
+\begin_layout Enumerate
+El cliente confirma el envío del encargo
+\end_layout
+
+\begin_layout Enumerate
+El sistema añade el encargo a la cola de encargos
 \end_layout
 
 \end_inset
@@ -1109,8 +1152,8 @@ Extensiones
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.
- No pagar por medio de la cuenta
+5.
+   El cliente no elige medio de pago
 \end_layout
 
 \end_inset
@@ -1120,12 +1163,12 @@ Extensiones
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Itemize
-Pagar en el local
+\begin_layout Enumerate
+El cliente confirma el envío del encargo
 \end_layout
 
-\begin_layout Itemize
-Pagar al delivery
+\begin_layout Enumerate
+El sistema añade el encargo a la cola de encargos
 \end_layout
 
 \end_inset
@@ -1154,7 +1197,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ActividadRealizarEncargo.png
+	filename DA Realizar Encargo.png
 	scale 50
 
 \end_inset
@@ -1197,7 +1240,7 @@ ID.
 \begin_inset Text
 
 \begin_layout Plain Layout
-8
+2
 \end_layout
 
 \end_inset
@@ -1217,7 +1260,7 @@ Nombre
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gestionar Hornos
+Seleccionar horno
 \end_layout
 
 \end_inset
@@ -1237,7 +1280,7 @@ Iniciador
 \begin_inset Text
 
 \begin_layout Plain Layout
-Encargado de gestión de hornos
+Encargado de pedidos
 \end_layout
 
 \end_inset
@@ -1257,7 +1300,7 @@ Objetivo
 \begin_inset Text
 
 \begin_layout Plain Layout
-Definir qué hornos deberán cocinar cada uno de los encargos
+Elegir que horno cocinara un determinado encargo de un cliente
 \end_layout
 
 \end_inset
@@ -1277,7 +1320,7 @@ Precondición
 \begin_inset Text
 
 \begin_layout Plain Layout
-El encargo fue aceptado y se cuenta con los insumos para realizarlo
+Hay encargo/s en la cola de encargos y hay hornos disponibles
 \end_layout
 
 \end_inset
@@ -1297,27 +1340,23 @@ Escenario principal de éxito
 \begin_inset Text
 
 \begin_layout Enumerate
-Recibir pedido 
+El Encargado de Pedidos consulta hornos disponibles al Sistema.
 \end_layout
 
 \begin_layout Enumerate
-Consultar recetas 
+El Sistema muestra los hornos disponibles.
 \end_layout
 
 \begin_layout Enumerate
-Seleccionar ingredientes 
+El Encargado de Pedidos elige un horno libre.
 \end_layout
 
 \begin_layout Enumerate
-Preparar comida 
+El Encargado de Pedidos dispone encargo en horno seleccionado.
 \end_layout
 
 \begin_layout Enumerate
-Separar encargo en módulos 
-\end_layout
-
-\begin_layout Enumerate
-Elegir horno
+El Sistema valida operación.
 \end_layout
 
 \end_inset
@@ -1337,57 +1376,7 @@ Postcondición
 \begin_inset Text
 
 \begin_layout Plain Layout
-El encargo es cocinado en el horno seleccionado
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="1">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top" width="80col%">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Extensiones
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.
- Hornos no disponibles
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Itemize
-Poner pedido en espera
-\end_layout
-
-\begin_layout Itemize
-Cancelar pedido si el cliente lo desea
+El encargo de cliente fue asignado a un horno
 \end_layout
 
 \end_inset
@@ -1402,6 +1391,10 @@ Cancelar pedido si el cliente lo desea
 
 \begin_layout Standard
 \SpecialChar \textcompwordmark{}
+
+\begin_inset Newline linebreak
+\end_inset
+
 
 \end_layout
 
@@ -1421,7 +1414,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ActividadGestionHornos.png
+	filename DA Seleccionar Horno.png
 	scale 50
 
 \end_inset
@@ -1435,14 +1428,475 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Graphics
+	filename DSS Seleccionar Horno.png
+	scale 50
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section
-Índice
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="70col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ID.
+ CU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nombre
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Definir medio de entrega
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Iniciador
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Encargado de Pedidos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objetivo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Determinar por cual medio llegará el encargo al cliente
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Precondición
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Existe encargo del cliente
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Escenario Principal de Éxito
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+El Encargado de Pedidos pregunta los distintos medios de envío al Sistema
+\end_layout
+
+\begin_layout Enumerate
+El Sistema muestra los medios de envío disponibles
+\end_layout
+
+\begin_layout Enumerate
+El Encargado de Pedidos selecciona envío por delivery.
+\end_layout
+
+\begin_layout Enumerate
+El Encargado de Pedidos registra empleado que realizara el envío.
+\end_layout
+
+\begin_layout Enumerate
+El Sistema emite factura.
+\end_layout
+
+\begin_layout Enumerate
+El Encargado de Pedidos registra pago que obtuvo el empleado del delivery.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Postcondición
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El medio por el cual se entregara el encargo fue definido
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="80col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Extensiones
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3a.
+ El Encargado de Pedidos selecciona medio entrega en el local
+\end_layout
+
+\begin_layout Enumerate
+El Encargado de Pedidos registra pago que obtuvo del cliente.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="70col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ID.
+ CU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nombre
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Realizar Pedido de Insumos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Iniciador
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Encargado de Pedidos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objetivo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reponer el stock de insumos necesarios para los productos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Precondición
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El punto de reposición de alguno/s de los insumos esta por debajo del valor
+ esperado
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Escenario Principal de Éxito
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+El Sistema envía mensaje que avisa bajo stock de insumos
+\end_layout
+
+\begin_layout Enumerate
+El Encargado de Pedidos consulta insumos de bajo stock
+\end_layout
+
+\begin_layout Enumerate
+El Sistema muestra los insumos con stock por debajo del estimado
+\end_layout
+
+\begin_layout Enumerate
+El Encargado de Pedidos selecciona insumo reponer, elige cantidad y proveedor.
+\end_layout
+
+\begin_layout Enumerate
+El Sistema envía pedido a Proveedor
+\end_layout
+
+\begin_layout Enumerate
+El proveedor recibe pedido y lo valida
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Postcondición
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El pedido de reposición de insumos fue efectuado satisfactoriamente.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="80col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Extensiones
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5a.
+ El proveedor no puede acceder al sistema
+\end_layout
+
+\begin_layout Enumerate
+El Sistema le notifica situación al Encargado de Pedidos
+\end_layout
+
+\begin_layout Enumerate
+El Encargado de Pedidos realiza la operación de forma clasica
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename DA Pedido de Insumos.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename DSS Pedido Insumos.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
